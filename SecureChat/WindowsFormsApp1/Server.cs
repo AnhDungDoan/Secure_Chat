@@ -80,7 +80,7 @@ namespace WindowsFormsApp1
                 
                     foreach (Socket item in clientList)
                     {
-                        if (item != null)
+                        if (item != null && item != client)
                         {
                             item.Send(Serialize(message));
                         }

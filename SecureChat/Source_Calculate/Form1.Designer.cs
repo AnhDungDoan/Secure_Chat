@@ -1,7 +1,7 @@
 ﻿
-namespace WindowsFormsApp1
+namespace Source_Calculate
 {
-    partial class Server
+    partial class Form1
     {
         /// <summary>
         /// Required designer variable.
@@ -29,17 +29,10 @@ namespace WindowsFormsApp1
         /// </summary>
         private void InitializeComponent()
         {
-            this.SuspendLayout();
-            // 
-            // Server
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(600, 268);
-            this.Name = "Server";
-            this.Text = "Server";
-            this.ResumeLayout(false);
-
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Text = "Form1";
         }
 
         #endregion
